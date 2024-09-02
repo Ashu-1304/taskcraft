@@ -1,0 +1,8 @@
+<h1>New Contact Form Submission</h1>
+<p>
+  <strong>Name:</strong> <%= @contact.full_name %><br>
+  <strong>Mobile Number:</strong> <%= @contact.mobile_number %><br>
+  <strong>Email:</strong> <%= @contact.email %><br>
+  <strong>Message:</strong> <%= @contact.message %><br>
+  <strong>Agreed to Terms and Conditions:</strong> <%= @contact.term_condition ? 'Yes' : 'No' %>
+</p>
