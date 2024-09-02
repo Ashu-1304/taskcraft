@@ -3,7 +3,7 @@ class ContactMailer < ApplicationMailer
       @contact = contact
       mail(
         from: @contact.email,
-        to: 'admintaskcraft@yopmail.com',  
+        to: 'vivek@poolstack.in',  
         subject: 'New Contact Form Submission'
       )
     end
